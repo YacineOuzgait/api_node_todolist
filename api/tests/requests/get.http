@@ -1,0 +1,22 @@
+# POST  http://localhost:5000/user
+# Content-Type: application/json
+
+# [
+#     {
+#         "email": "user1@user.com",
+#         "pin_code": "000000"
+#     },
+#     {
+#         "email": "user3@user.com",
+#         "pin_code": "123456"
+#     }
+# ]
+
+PUT http://localhost:5000/user/2
+Content-Type: application/json
+
+    {
+        "email": "user5@user.com",
+        "pin_code": "123456"
+    }
+

@@ -1,0 +1,6 @@
+/*auto-generated*/
+const BaseService = require("./base.service");
+class ClassName extends BaseService{  
+
+}
+module.exports = ClassName;
